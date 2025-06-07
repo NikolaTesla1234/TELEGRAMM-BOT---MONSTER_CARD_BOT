@@ -197,9 +197,7 @@ async def send_welcome(message):
         writer = csv.writer(file)
         writer.writerow([
             message.from_user.id,
-            message.from_user.username,
-            message.from_user.first_name,
-            message.from_user.last_name
+            message.from_user.username
         ])
     await bot.send_message(message.chat.id,
         'Я - MonsterCardBot\nВыбери оружие с которым ты играешь а я покажу карточки стихий для него',
