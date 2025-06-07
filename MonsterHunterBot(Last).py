@@ -180,7 +180,7 @@ def weapon():
 
 
 
-# выбора стихии 
+# выбор стихий
 
 
 def element(weapon):
